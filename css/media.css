@@ -1,0 +1,254 @@
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) { 
+            /*header start*/
+             .menu ul li a{
+                font-size: 20px;
+             text-align: right;
+         }
+       /*header end*/
+      /*slider start*/
+         .slider {
+             padding-bottom: 70px;
+         }
+       .s_txt {
+        margin-top: 20px;
+        }
+
+        .cid {
+          bottom: -55px;
+        }
+        .cid [data-bs-target] {
+         width: 13px;
+         height: 13px;
+        }
+
+
+        .s_icon ul li i {
+         font-size: 38px;
+         margin-right: 20px;
+   
+        }
+        .s_txt h1 {
+    font-size: 25px;
+}
+       /*slider end*/
+       /*feature  start*/
+       .feature {
+         padding-top: 50px;
+         padding-bottom: 70px;
+}
+         .c_h1{
+        font-size:25px ;
+        margin-bottom:10px ;
+            } 
+            .f_single{
+                margin-top: 30px;
+                text-align: center;
+            }
+
+            .f_txt h2{
+                margin-top: 7px;
+                margin-bottom:7px ;
+            }
+
+       /*feature end*/
+       /*contact start*/
+        .contact {       
+            padding-top: 50px;
+            padding-bottom: 70px;
+}
+       .mtb_custom {
+            margin-top: 35px;
+            margin-bottom: 35px;
+}   
+    .c_email{
+        height: 45px;
+    padding: 5px 10px;
+    }
+    .btn_submit{
+        height: 45px;
+        padding: 5px 10px;
+        font-size: 18px;
+}
+    .c_social ul li{
+        margin-right: 20px !important;
+    }
+    .c_social ul li a i{
+        font-size: 35px;
+    }
+
+        
+
+       /*contact end*/
+        /*footer start*/
+       footer{
+        padding-bottom: 35px;
+       }
+       .f_1{
+        text-align: center;
+        margin-bottom: 35px;
+
+       }
+       .f_2{
+
+        text-align: center;
+        margin-bottom: 35px;
+       }
+       /*footer end*/
+
+        }
+ }
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) { 
+
+        /*header start*/
+       .menu ul li a{
+        font-size: 20px;
+        text-align: right;
+       }
+       /*header end*/
+       
+/*slider start*/
+         .slider {
+             padding-bottom: 70px;
+         }
+       .s_txt {
+        margin-top: 20px;
+        }
+
+        .cid {
+          bottom: -55px;
+        }
+        .cid [data-bs-target] {
+         width: 13px;
+         height: 13px;
+        }
+
+
+        .s_icon ul li i {
+         font-size: 38px;
+         margin-right: 20px;
+   
+        }
+       /*slider end*/
+       /*feature  start*/
+       .feature {
+         padding-top: 50px;
+         padding-bottom: 70px;
+}
+         .c_h1{
+        font-size:30px ;
+        margin-bottom:10px ;
+            } 
+            .f_single{
+                margin-top: 30px;
+                text-align: center;
+            }
+
+            .f_txt h2{
+                margin-top: 7px;
+                margin-bottom:7px ;
+            }
+
+       /*feature end*/
+
+       /*contact start*/
+        .contact {       
+            padding-top: 50px;
+            padding-bottom: 70px;
+}
+       .mtb_custom {
+            margin-top: 35px;
+            margin-bottom: 35px;
+}   
+    .c_email{
+        height: 45px;
+    padding: 5px 10px;
+    }
+    .btn_submit{
+        height: 45px;
+        padding: 5px 10px;
+}
+    .c_social ul li{
+        margin-right: 20px !important;
+    }
+    .c_social ul li a i{
+        font-size: 35px;
+    }
+
+        
+
+       /*contact end*/
+       /*footer start*/
+       footer{
+        padding-bottom: 70px;
+       }
+       .f_1{
+        text-align: center;
+       }
+       .f_2{
+
+        text-align: center;
+        margin-bottom: 35px;
+       }
+       /*footer end*/
+
+        }
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) { 
+       /*header start*/
+       .menu ul li a{
+        text-align: right;
+       }
+       /*header end*/
+       /*slider start*/
+       .s_txt {
+        margin-top: 50px;
+}
+       /*slider end*/
+       /*feature start*/
+       .feature {
+            padding-top: 80px;
+            padding-bottom: 100px;
+}
+        .f_single {
+            margin-top: 40px;
+        }
+       /*feature end*/
+       /*contact start*/
+       .contact {       
+            padding-top: 80px;
+            padding-bottom: 100px;
+}
+       .mtb_custom {
+            margin-top: 50px;
+            margin-bottom: 50px;
+}
+
+       /*contact end*/
+
+       /*footer start*/
+
+       footer{
+        padding-bottom: 100px;
+       }
+       /*footer end*/
+
+ }
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+
+ }
+
+/*Extra-Large devices (desktops, 1200px and up)*/
+@media (min-width: 1200px) and (max-width: 1399.98px) { 
+
+ }
+
+/*Extra Extra  large devices (large desktops, 1400px and up)*/
+@media (min-width: 1400px) { 
+
+ }
